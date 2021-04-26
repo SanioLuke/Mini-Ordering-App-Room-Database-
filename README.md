@@ -1,0 +1,2 @@
+# Mini-Ordering-App-Room-Database-
+The Mini Order is a very useful and cool application, where people can get a lot of grocery products with price, mrp, etc and order the products with their desired number of counts/weights. The app stores the ordered products in the local database of the app and enable the users to view the orders whenever they want. The app uses  the room-database as its database with update, delete, insert, insertall queries. The usage of API , to get all the products from the online storage and stores all the products in the local database.
