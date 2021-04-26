@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activities.OrderSuccessActivity">
+
+    <ImageView
+        android:id="@+id/ordersuccess_anim"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@raw/ordered_anim" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Order Placed"
+        android:textColor="@color/second_black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Your order was placed successfully"
+        android:textColor="@color/second_black"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:id="@+id/ordersuccess_vieworders_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/main_color"
+        android:paddingHorizontal="15dp"
+        android:text="View all orders"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/ordersuccess_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="GO HOME"
+        android:textColor="@color/main_color"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
